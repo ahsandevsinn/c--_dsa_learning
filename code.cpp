@@ -31,13 +31,22 @@ int main(int argc, char const *argv[])
     int a = 10;
     int b = 10;
     // int sum = a + b;
+    // Arthimetic Operators
     cout << "Sum " << a + b << endl;
     cout << "Difference " << a - b << endl;
     cout << "Product " << a * b << endl;
     cout << "Divide " << a / b << endl;
     cout << "Modules " << a % b << endl;
 
-    
+    // Relation Operators
+
+    cout << (a < b) << endl;
+    cout << (a <= b) << endl;
+    cout << (a > b) << endl;
+    cout << (a >= b) << endl;
+    cout << (a == b) << endl;
+    cout << (a != b) << endl;
+
 
 
 
