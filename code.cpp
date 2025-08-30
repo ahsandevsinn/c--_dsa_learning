@@ -22,11 +22,22 @@ int main(int argc, char const *argv[])
      
     // cout << bValue << endl;
 
-    int age ;
-    cout << "Please enter age" << endl;
-    cin >>  age ;
+    // int age ;
+    // cout << "Please enter age" << endl;
+    // cin >>  age ;
 
-    cout << "Your age is " << age << endl;
+    // cout << "Your age is " << age << endl;
+
+    int a = 10;
+    int b = 10;
+    // int sum = a + b;
+    cout << "Sum " << a + b << endl;
+    cout << "Difference " << a - b << endl;
+    cout << "Product " << a * b << endl;
+    cout << "Divide " << a / b << endl;
+    cout << "Modules " << a % b << endl;
+
+    
 
 
 
