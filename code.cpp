@@ -28,15 +28,15 @@ int main(int argc, char const *argv[])
 
     // cout << "Your age is " << age << endl;
 
-    int a = 10;
-    int b = 10;
+    // int a = 10;
+    // int b = 10;
     // int sum = a + b;
     // Arthimetic Operators
-    cout << "Sum " << a + b << endl;
-    cout << "Difference " << a - b << endl;
-    cout << "Product " << a * b << endl;
-    cout << "Divide " << a / b << endl;
-    cout << "Modules " << a % b << endl;
+    // cout << "Sum " << a + b << endl;
+    // cout << "Difference " << a - b << endl;
+    // cout << "Product " << a * b << endl;
+    // cout << "Divide " << a / b << endl;
+    // cout << "Modules " << a % b << endl;
 
     // Relation Operators
 
@@ -48,11 +48,23 @@ int main(int argc, char const *argv[])
     // cout << (a != b) << endl;
 
        // Logical Operators 
-    cout << (10 < 20 || 10 > 20)  << endl; // 1
-    cout << (10 < 20 && 10 > 20)  << endl; // 0
-    cout << !(10 < 20)  << endl; // 0
+    // cout << (10 < 20 || 10 > 20)  << endl; // 1
+    // cout << (10 < 20 && 10 > 20)  << endl; // 0
+    // cout << !(10 < 20)  << endl; // 0
 
-
+    // Type Casting  
+   double price = 100.00;
+   int total = price;
+   cout << price << endl;
+    
+//    sum of 2 numbers
+   int num1;
+   int num2;
+   cout << "Enter number 1" << endl;
+   cin >> num1 ;
+   cout << "Enter number 2" << endl;
+   cin >> num2 ;
+   cout << "Your sum is " << num1+num2 << endl;
 
 
     return 0;
