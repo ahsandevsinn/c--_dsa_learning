@@ -71,8 +71,14 @@ int main(int argc, char const *argv[])
 // int b = a++;
 // cout << b << endl;
 // cout << a << endl;
+// int a = 5;
+// int b = ++a;
+// cout << b << endl;
+// cout << a << endl;
+
+
 int a = 5;
-int b = ++a;
+int b = a--;
 cout << b << endl;
 cout << a << endl;
 
