@@ -53,18 +53,25 @@ int main(int argc, char const *argv[])
     // cout << !(10 < 20)  << endl; // 0
 
     // Type Casting  
-   double price = 100.00;
-   int total = price;
-   cout << price << endl;
+//    double price = 100.00;
+//    int total = price;
+//    cout << price << endl;
     
 //    sum of 2 numbers
-   int num1;
-   int num2;
-   cout << "Enter number 1" << endl;
-   cin >> num1 ;
-   cout << "Enter number 2" << endl;
-   cin >> num2 ;
-   cout << "Your sum is " << num1+num2 << endl;
+//    int num1;
+//    int num2;
+//    cout << "Enter number 1" << endl;
+//    cin >> num1 ;
+//    cout << "Enter number 2" << endl;
+//    cin >> num2 ;
+//    cout << "Your sum is " << num1+num2 << endl;
+
+// Unary Operator 
+int a = 5;
+int b = a++;
+cout << b << endl;
+cout << a << endl;
+
 
 
     return 0;
