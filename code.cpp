@@ -14,13 +14,19 @@ int main(int argc, char const *argv[])
     // cout << PI << endl;
     // cout << isSafe << endl;
     // cout << height << endl;
-    float a  = 3.14f;
-    double value = a;
-    cout << value << endl;
-    double b = 100.99;
-    int bValue = (int)b;
+    // float a  = 3.14f;
+    // double value = a;
+    // cout << value << endl;
+    // double b = 100.99;
+    // int bValue = (int)b;
      
-    cout << bValue << endl;
+    // cout << bValue << endl;
+
+    int age ;
+    cout << "Please enter age" << endl;
+    cin >>  age ;
+
+    cout << "Your age is " << age << endl;
 
 
 
