@@ -40,12 +40,17 @@ int main(int argc, char const *argv[])
 
     // Relation Operators
 
-    cout << (a < b) << endl;
-    cout << (a <= b) << endl;
-    cout << (a > b) << endl;
-    cout << (a >= b) << endl;
-    cout << (a == b) << endl;
-    cout << (a != b) << endl;
+    // cout << (a < b) << endl;
+    // cout << (a <= b) << endl;
+    // cout << (a > b) << endl;
+    // cout << (a >= b) << endl;
+    // cout << (a == b) << endl;
+    // cout << (a != b) << endl;
+
+       // Logical Operators 
+    cout << (10 < 20 || 10 > 20)  << endl; // 1
+    cout << (10 < 20 && 10 > 20)  << endl; // 0
+    cout << !(10 < 20)  << endl; // 0
 
 
 
