@@ -127,18 +127,21 @@ int main(int argc, char const *argv[])
     //     cout << "Fail" << endl;
     // }
     // final lowercase or uppercase
-    char ch;
-    cout << "Please enter a character: ";
-    cin >> ch;
-    if (ch >= 'a' && ch <= 'z')
+    // char ch;
+    // cout << "Please enter a character: ";
+    // cin >> ch;
+    // if (ch >= 'a' && ch <= 'z')
         
-    {
-        cout << "lowercase";
-    }
-    else
-    {
-        cout << "upper case";
-    }
+    // {
+    //     cout << "lowercase";
+    // }
+    // else
+    // {
+    //     cout << "upper case";
+    // }
+
+    int num = -33;
+    cout << (num > 0 ? "Positive" : "Negative") << endl;
 
     return 0;
 }
