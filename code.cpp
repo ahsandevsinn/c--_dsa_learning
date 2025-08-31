@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     // cout << value << endl;
     // double b = 100.99;
     // int bValue = (int)b;
-     
+
     // cout << bValue << endl;
 
     // int age ;
@@ -47,69 +47,85 @@ int main(int argc, char const *argv[])
     // cout << (a == b) << endl;
     // cout << (a != b) << endl;
 
-       // Logical Operators 
+    // Logical Operators
     // cout << (10 < 20 || 10 > 20)  << endl; // 1
     // cout << (10 < 20 && 10 > 20)  << endl; // 0
     // cout << !(10 < 20)  << endl; // 0
 
-    // Type Casting  
-//    double price = 100.00;
-//    int total = price;
-//    cout << price << endl;
-    
-//    sum of 2 numbers
-//    int num1;
-//    int num2;
-//    cout << "Enter number 1" << endl;
-//    cin >> num1 ;
-//    cout << "Enter number 2" << endl;
-//    cin >> num2 ;
-//    cout << "Your sum is " << num1+num2 << endl;
+    // Type Casting
+    //    double price = 100.00;
+    //    int total = price;
+    //    cout << price << endl;
 
-// Unary Operator 
-// int a = 5;
-// int b = a++;
-// cout << b << endl;
-// cout << a << endl;
-// int a = 5;
-// int b = ++a;
-// cout << b << endl;
-// cout << a << endl;
+    //    sum of 2 numbers
+    //    int num1;
+    //    int num2;
+    //    cout << "Enter number 1" << endl;
+    //    cin >> num1 ;
+    //    cout << "Enter number 2" << endl;
+    //    cin >> num2 ;
+    //    cout << "Your sum is " << num1+num2 << endl;
 
+    // Unary Operator
+    // int a = 5;
+    // int b = a++;
+    // cout << b << endl;
+    // cout << a << endl;
+    // int a = 5;
+    // int b = ++a;
+    // cout << b << endl;
+    // cout << a << endl;
 
-// int a = 5;
-// int b = a--;
-// cout << b << endl;
-// cout << a << endl;
+    // int a = 5;
+    // int b = a--;
+    // cout << b << endl;
+    // cout << a << endl;
 
-// int a = 5;
-// int b = --a;
-// cout << b << endl;
-// cout << a << endl;
+    // int a = 5;
+    // int b = --a;
+    // cout << b << endl;
+    // cout << a << endl;
 
-// int age = 1;
+    // int age = 1;
 
-// if (age >= 18){
-//     cout << "You can Vote" << endl;
-// } else{
-//     cout << "You can't  Vote" << endl;
+    // if (age >= 18){
+    //     cout << "You can Vote" << endl;
+    // } else{
+    //     cout << "You can't  Vote" << endl;
 
-// }
+    // }
 
-int number ;
-cout << "Please enter number " << endl;
-cin >> number;
-if (number%2 == 0)
-{
-  cout << "Even" << endl;
-}else{
-  cout << "Odd" << endl;
+    // int number ;
+    // cout << "Please enter number " << endl;
+    // cin >> number;
+    // if (number%2 == 0)
+    // {
+    //   cout << "Even" << endl;
+    // }else{
+    //   cout << "Odd" << endl;
 
-}
+    // }
 
+    int marks;
 
-
-
+    cout << "Please enter marks " << endl;
+    cin >> marks;
+    if (marks >= 90)
+    {
+        cout << "Grade A" << endl;
+    }
+    else if (marks >= 80 && marks < 90)
+    {
+        cout << "Grade B" << endl;
+    }
+    else if (marks >= 50)
+    {
+        cout << "Grade C" << endl;
+    }
+    else
+    {
+        cout << "Fail" << endl;
+    }
 
     return 0;
 }
