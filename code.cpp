@@ -87,14 +87,26 @@ int main(int argc, char const *argv[])
 // cout << b << endl;
 // cout << a << endl;
 
-int age = 1;
+// int age = 1;
 
-if (age >= 18){
-    cout << "You can Vote" << endl;
-} else{
-    cout << "You can't  Vote" << endl;
+// if (age >= 18){
+//     cout << "You can Vote" << endl;
+// } else{
+//     cout << "You can't  Vote" << endl;
+
+// }
+
+int number ;
+cout << "Please enter number " << endl;
+cin >> number;
+if (number%2 == 0)
+{
+  cout << "Even" << endl;
+}else{
+  cout << "Odd" << endl;
 
 }
+
 
 
 
