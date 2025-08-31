@@ -106,25 +106,38 @@ int main(int argc, char const *argv[])
 
     // }
 
-    int marks;
+    // int marks;
 
-    cout << "Please enter marks " << endl;
-    cin >> marks;
-    if (marks >= 90)
+    // cout << "Please enter marks " << endl;
+    // cin >> marks;
+    // if (marks >= 90)
+    // {
+    //     cout << "Grade A" << endl;
+    // }
+    // else if (marks >= 80 && marks < 90)
+    // {
+    //     cout << "Grade B" << endl;
+    // }
+    // else if (marks >= 50)
+    // {
+    //     cout << "Grade C" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Fail" << endl;
+    // }
+    // final lowercase or uppercase
+    char ch;
+    cout << "Please enter a character: ";
+    cin >> ch;
+    if (ch >= 'a' && ch <= 'z')
+        
     {
-        cout << "Grade A" << endl;
-    }
-    else if (marks >= 80 && marks < 90)
-    {
-        cout << "Grade B" << endl;
-    }
-    else if (marks >= 50)
-    {
-        cout << "Grade C" << endl;
+        cout << "lowercase";
     }
     else
     {
-        cout << "Fail" << endl;
+        cout << "upper case";
     }
 
     return 0;
